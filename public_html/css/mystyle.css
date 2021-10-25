@@ -50,3 +50,53 @@
         display:block !important;
     }
 }
+
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+#container {
+    width: 100%;
+}
+
+.bg-image {
+    background: url("https://www.wallpapertip.com/wmimgs/12-123097_internet-wallpaper-hd.jpg") no-repeat center;
+    height:800px;
+}
+
+#color-overlay {
+    position: absolute;
+    height:800px;
+    width:100%;
+    background-color: #000033;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+h1 {
+    font-family: Arial Narrow, sans-serif;
+    color: #FFF;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.sitetitle {
+    position: absolute;
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
