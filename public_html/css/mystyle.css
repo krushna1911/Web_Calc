@@ -1,0 +1,15 @@
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand>img {
+    height: 30px;
+    padding: 5px;
+    width: auto;
+}
+
+.navbar{
+    height: 60px;
+    font-size:20px;
+    padding: 5px;
+}
