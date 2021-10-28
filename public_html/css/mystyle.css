@@ -110,6 +110,9 @@ html,body{
     border-radius:10px;
 }
 
+.title-form {
+    max-width: 550px;
+}
 #founder-content{
     padding:20px
 }
