@@ -48,6 +48,7 @@
 canvas {
     display: block;
     vertical-align: bottom;
+    height: 50vh;
 }
 
 a {
@@ -60,18 +61,16 @@ a:hover {
 }
 
 html,body{
-    height: 100%;
-    margin:0;
+    scroll-behavior: smooth;
 }
 
-.jumbotron {
+#index_jumbo {
     color: white;
     background-image: url("https://www.wallpapertip.com/wmimgs/12-123097_internet-wallpaper-hd.jpg");
     /*background-image: url("https://www.usg.edu/galileo/skills/unit07/images/07_02_univac.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    height: 10vh;
     padding: 0 0;
     margin : 0 !important;
 }
@@ -105,3 +104,6 @@ html,body{
 
 
 
+#founder-content{
+    padding:20px
+}
