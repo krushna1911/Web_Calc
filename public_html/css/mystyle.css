@@ -104,4 +104,12 @@ html,body{
 }
 
 
+.green-contact-form {
+    width: 700px;
+    margin:0 auto;
+    border-radius:10px;
+}
 
+.title-form {
+    max-width: 550px;
+}
