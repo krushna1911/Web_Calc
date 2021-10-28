@@ -1,17 +1,10 @@
-.navbar-brand {
-    padding: 10px;
-}
-
 .navbar-brand>img {
-    height: 30px;
-    padding: 5px;
-    width: auto;
+    height: 85%;
 }
 
 .navbar{
-    height: 60px;
-    font-size:20px;
-    padding: 5px;
+    margin : 0 !important;
+    font-size:120%;
 }
 
 @media (max-width: 991px) {
@@ -25,7 +18,7 @@
         display: block;
     }
     .navbar-collapse {
-        border-top: 1px solid transparent;
+        border-top: 1px solid black;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-fixed-top {
@@ -48,30 +41,13 @@
     }
     .collapse.in{
         display:block !important;
+        background-color: #FFFFFF;
     }
 }
 
-
-body {
-    margin: 0;
-    background: #000;
-}
-
-#container {
-    width: 100%;
-}
-
-.bg-image {
-    background: url("https://www.wallpapertip.com/wmimgs/12-123097_internet-wallpaper-hd.jpg") no-repeat center;
-    height:800px;
-}
-
-#color-overlay {
-    position: absolute;
-    height:800px;
-    width:100%;
-    background-color: #000033;
-    opacity: 0.6;
+canvas {
+    display: block;
+    vertical-align: bottom;
 }
 
 a {
@@ -83,20 +59,49 @@ a:hover {
     color: lightblue;
 }
 
-h1 {
-    font-family: Arial Narrow, sans-serif;
-    color: #FFF;
-    font-size: 5em;
-    text-align: center;
-    text-shadow: 1px 1px #000;
-    text-transform: uppercase;
-    letter-spacing: 7px;
+html,body{
+    height: 100%;
+    margin:0;
 }
 
-.sitetitle {
-    position: absolute;
-    color:#fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.jumbotron {
+    color: white;
+    background-image: url("https://www.wallpapertip.com/wmimgs/12-123097_internet-wallpaper-hd.jpg");
+    /*background-image: url("https://www.usg.edu/galileo/skills/unit07/images/07_02_univac.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 0 0;
+    margin : 0 !important;
 }
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b61924;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js {
+    background-color: #000;
+    opacity: 0.7;
+}
+
+#overlay {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+
+#footer{
+    height: 2vh;
+    font-size: 1vh;
+}
+
+
+
