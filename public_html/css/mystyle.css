@@ -118,3 +118,11 @@ html,body{
 .title-form {
     max-width: 550px;
 }
+
+#paper_link{
+    color:inherit;
+}
+
+#paper_link:hover{
+    background-color: #eee;
+}
