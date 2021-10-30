@@ -118,13 +118,17 @@ html,body{
 .title-form {
     max-width: 550px;
 }
-/*
-<!-- arpa2internet -->
- */
+
+/*Arpa2Internet*/
 .heading3{
     text-align: center;
 
 }
 
+#paper_link{
+    color:inherit;
+}
 
-
+#paper_link:hover{
+    background-color: #eee;
+}
