@@ -124,3 +124,5 @@ $(window).on("resize", function() {
 });
 
 var scroll = new SmoothScroll('a[href*="#"]');
+
+
