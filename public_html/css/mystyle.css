@@ -119,6 +119,12 @@ html,body{
     max-width: 550px;
 }
 
+/*Arpa2Internet*/
+.heading3{
+    text-align: center;
+
+}
+
 #paper_link{
     color:inherit;
 }
