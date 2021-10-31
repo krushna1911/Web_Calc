@@ -1,10 +1,16 @@
 .navbar-brand>img {
     height: 85%;
+    content: url(images/logo2.png);
 }
 
 .navbar{
     margin : 0 !important;
     font-size:120%;
+}
+
+.navbar-default{
+    background-color: #ddd;
+    color:#fff;
 }
 
 @media (max-width: 991px) {
