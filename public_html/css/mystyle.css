@@ -1,6 +1,5 @@
 .navbar-brand>img {
     height: 85%;
-    content: url(images/logo2.png);
 }
 
 .navbar{
@@ -8,9 +7,8 @@
     font-size:120%;
 }
 
-.navbar-default{
-    background-color: #ddd;
-    color:#fff;
+.navbar-fixed-top{
+    background-color: #eee;
 }
 
 @media (max-width: 991px) {
@@ -118,8 +116,8 @@ html,body{
 .title-form {
     max-width: 550px;
 }
-#founder-content{
-    padding:20px
+#founder-content, #arpa2inter-content, #origin-content, #aboutus-content, #growth-content{
+    padding:50px
 }
 .title-form {
     max-width: 550px;
