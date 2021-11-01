@@ -67,6 +67,10 @@ html,body{
     scroll-behavior: smooth;
 }
 
+#growth-content{
+    padding-top: 60px;
+}
+
 .jumbotron {
     color: white;
     background-image: url("https://www.wallpapertip.com/wmimgs/12-123097_internet-wallpaper-hd.jpg");
@@ -144,5 +148,9 @@ html,body{
 
 #paper_link:hover{
     background-color: #eee;
+}
+
+#growth-content{
+    width:90%;
 }
 
