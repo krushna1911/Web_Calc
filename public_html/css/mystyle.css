@@ -67,9 +67,6 @@ html,body{
     scroll-behavior: smooth;
 }
 
-#growth-content{
-    padding-top: 60px;
-}
 
 .jumbotron {
     color: white;
@@ -105,11 +102,6 @@ html,body{
     transform: translate(-50%,-50%)
 }
 
-#footer{
-    height: 2vh;
-    font-size: 1vh;
-}
-
 
 .green-contact-form {
     margin:0 auto;
@@ -119,9 +111,10 @@ html,body{
 .title-form {
     max-width: 550px;
 }
-#founder-content, #arpa2inter-content, #origin-content, #aboutus-content, #growth-content{
-    padding:50px
+#content, #founder-content, #arpa2inter-content, #origin-content, #aboutus-content, #growth-content{
+    padding-top:50px;
 }
+
 .title-form {
     max-width: 550px;
 }
@@ -132,9 +125,6 @@ html,body{
     text-align: center;
 
 }
-
-
-
 
 /*Arpa2Internet*/
 .heading3{
@@ -152,5 +142,9 @@ html,body{
 
 #growth-content{
     width:90%;
+}
+
+#footer{
+    font-size: 110%;
 }
 
