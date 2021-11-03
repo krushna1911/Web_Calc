@@ -123,6 +123,6 @@ $(window).on("resize", function() {
     $(".jumbotron").css({ height: $(window).height() + "px" });
 });
 
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]').scrollTop();
 
 

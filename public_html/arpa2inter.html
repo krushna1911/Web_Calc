@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Fathers of Internet</title>
@@ -13,7 +13,7 @@
 
     <!--There is where the navigation will go-->
     <div id="navigation">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" alt="Logo"></a>
@@ -71,7 +71,7 @@
             </p>
             <div class="text-center col-md-3 col-sm-3 col-xs-12">
                 <div id="Lo_And_Behold_img">
-                    <img class="img-responsive center-block" src="images/Lo_And_Behold.png"/>
+                    <img class="img-responsive img-thumbnail  center-block" src="images/Lo_And_Behold.png" alt="Lo_&_Behold"/>
                 </div>
                 <br/>
                 <div class="caption"><b><i>Richard Bolt, Leo Beranek and Robert Newman</i></b></div>
@@ -93,7 +93,7 @@
                 <h3><b><u>The Invention of Email</u></b></h3>
             </div>
             <div class="text-center col-md-3 col-sm-3">
-                <img class="img-responsive center-block" src="images/Email.png" />
+                <img class="img-responsive img-thumbnail  center-block" src="images/Email.png" alt="Email"/>
                 <br/>
                 <div class="caption"><b><i>Ray Tomlinson</i></b></div>
                 <br/>
@@ -129,7 +129,7 @@
                 <h3><b><u>DNS</u></b></h3>
             </div>
             <div class="text-center col-md-3 col-sm-3">
-                <img class="img-responsive center-block" src="images/DNS.png" />
+                <img class="img-responsive img-thumbnail center-block" src="images/DNS.png" alt="DNS"/>
                 <br/>
                 <div class="caption"><b><i>Paul Mockapetris </i></b></div>
                 <br/>
@@ -178,7 +178,7 @@
             </p>
             <div class="text-center col-md-3 col-sm-3">
                 <div id="#web">
-                    <img class="img-responsive center-block" src="images/web.png" />
+                    <img class="img-responsive img-thumbnail center-block" src="images/web.png" alt="Lo_&_Behold"/>
                 </div>
                 <br/>
                 <div class="caption"><b><i>Timothy Berners Lee </i></b></div>
@@ -220,19 +220,26 @@
 
     </div>
 
-    <footer class="sticky-footer bg-primary container-fluid">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <span class="text-lead">&copy; Amey Sawant and Krushna Akhade </span>
-                </div>
+    <!--There is where the footer will go-->
+    <div id="footer">
+        <footer class="sticky-footer bg-primary container-fluid mt-auto">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span id="github-link" class="text-lead"> <a href="https://github.com/aps358/KA_History_of_Internet">GitHub Link</a></span>
+                    </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <span id="github-link" class="text-lead"> <a href="https://github.com/aps358/KA_History_of_Internet">GitHub Link</a></span>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span class="text-lead">&copy; Amey Sawant and Krushna Akhade </span>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span id="W3C_Validator" class="text-lead"> <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faskahistoryofinternet.eastus.azurecontainer.io%2Farpa2inter.html">W3C Validation</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
