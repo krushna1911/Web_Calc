@@ -163,3 +163,15 @@ html,body{
     right: 0;
 }
 
+#code_data {
+    display: block;
+    overflow: hidden;
+    resize: none;
+}
+.a1_code{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
