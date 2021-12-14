@@ -1,5 +1,5 @@
 from app.controllers.controller import ControllerBase
-from calculator.main import Calculator
+from calc.calculator import Calculator
 from flask import render_template, request, flash, redirect, url_for
 
 

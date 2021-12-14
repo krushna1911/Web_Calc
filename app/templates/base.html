@@ -42,21 +42,36 @@
     </div>
 
     <div class="container-fluid" id="content">
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-danger alert-dismissible" role="alert">
+                        {{ message }}
+
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close"><span
+                                style="float:right">&times;</span></a>
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+        {% endwith %}
+
         <div class="text-center">{% block content %}{% endblock %}</div>
     </div>
 
     <!--There is where the footer will go-->
     <div id="footer">
         {% block footer %}
-        <footer class="sticky-footer bg-primary container-fluid mt-auto">
-            <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <span class="text-lead">&copy; Krushna Akhade </span>
+            <footer class="sticky-footer bg-primary container-fluid mt-auto">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <span class="text-lead">&copy; Krushna Akhade </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
         {% endblock %}
     </div>
 </div>
