@@ -10,11 +10,11 @@
 {% endblock %}
 {% block content %}
 
-    <h1>HTML Form</h1>
-    <form action="/basicform" style="border:5px solid antiquewhite"  method="POST" >
+    <h1>Calculator</h1>
+    <form action="/basicform" style="border:3px solid #FFFFFF"  method="POST" >
         <div class="form-group">
             <label for="formGroupExampleInput">Value1</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="value1" id="value1" name="value1" >
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="value1" id="value1" name="value1" style="color: #336699">
         </div>
         <div class="form-group">
             <label for="formGroupExampleInput2">Value2</label>
@@ -24,19 +24,19 @@
             <legend>Operation</legend>
             <div>
                 <input type="radio" name="operation" id="addition" value="addition" checked>
-                <label for="addition">addition</label>
+                <label for="addition">Addition</label>
             </div>
             <div>
                 <input type="radio" name="operation" id="subtraction" value="subtraction">
-                <label for="subtraction">subtraction</label>
+                <label for="subtraction">Subtraction</label>
             </div>
             <div>
                 <input type="radio" name="operation" id="multiplication" value="multiplication">
-                <label for="multiplication">multiplication</label>
+                <label for="multiplication">Multiplication</label>
             </div>
             <div>
                 <input type="radio" name="operation" id="division" value="division">
-                <label for="division">division</label>
+                <label for="division">Division</label>
             </div>
         </fieldset>
         <input class="btn btn-primary" type="submit" value="Submit">

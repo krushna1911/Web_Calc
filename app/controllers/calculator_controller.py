@@ -19,7 +19,7 @@ class CalculatorController(ControllerBase):
         elif request.form['value2'] == '':
             flash('Bad input for Value 2 field')
         else:
-            flash('Calculation is done successfully !!!!')
+            flash('It worked!')
 
             # make the tuple
             my_tuple = (value1, value2)
